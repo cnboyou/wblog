@@ -3,8 +3,8 @@
       <el-container>
         <el-header style="background: rgba(105,105,105,0)">
           <el-row>
-            <el-col :span="6"><div class="grid-content bg-purple">汪仔码头的博客</div></el-col>
-            <el-col :span="18"><div class="grid-content bg-purple-light">
+            <el-col :span="6"><div class="grid-content bg-purple">XXXXXXXX</div></el-col>
+            <el-col :span="12"><div class="grid-content bg-purple-light">
               <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
                 <el-menu-item index="1">处理中心</el-menu-item>
                 <el-submenu index="2">
@@ -24,6 +24,15 @@
               </el-menu>
               <div class="line"></div>
             </div></el-col>
+            <el-col :span="4">
+              <div style="margin-top: 15px;">
+              <el-input placeholder="请输入内容" v-model="input3" class="input-with-select">
+                <el-button slot="append" icon="el-icon-search"></el-button>
+              </el-input>
+            </div></el-col>
+            <el-col :span="2">
+
+            </el-col>
           </el-row>
         </el-header>
 
